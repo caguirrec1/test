@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("mysql10.000webhost.com","username","password","db_name");
+$con=mysqli_connect("sql5.freemysqlhosting.net","sql5127751","gJ5wv2BtCa","sql5127751");
 
 if (mysqli_connect_errno($con))
 {
@@ -15,5 +15,5 @@ $data = $row[0];
 if($data){
 echo $data;
 }
-mysqli_close($con);
+mysqli_close($con); 
 ?>
